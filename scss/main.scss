@@ -1,6 +1,14 @@
 @import "config";
 @import "menu";
 
+// This will prevent transitions from flashing on screen upon load. Removed upon load in JS
+// .preload * {
+//   -webkit-transition: none !important;
+//   -moz-transition: none !important;
+//   -ms-transition: none !important;
+//   -o-transition: none !important;
+// }
+
 * {
   box-sizing: border-box;
 }
