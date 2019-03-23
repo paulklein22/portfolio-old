@@ -1,5 +1,5 @@
-@import "config";
-@import "menu";
+@import 'config';
+@import 'menu';
 
 // This will prevent transitions from flashing on screen upon load. Removed upon load in JS
 // .preload * {
@@ -19,7 +19,7 @@ body {
   color: set-text-color($primary-color);
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -85,8 +85,8 @@ main {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    "bioimage bio bio"
-    "job1 job2 job3";
+    'bioimage bio bio'
+    'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -200,4 +200,4 @@ main {
 }
 
 // Putting Mobile Settings at the bottom so they run after regular CSS
-@import "mobile";
+@import 'mobile';
