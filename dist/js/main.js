@@ -31,10 +31,3 @@ function toggleMenu() {
     showMenu = false;
   }
 }
-
-// scripts for turning off .preload (jQuery and JS)
-// $(window).load(function() {
-//   $("body").removeClass("preload");
-// });
-
-// window.forEach(item => item.classList.removeClass("preload"));
